@@ -1,0 +1,115 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styles for the heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for the input field */
+.input-field {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-field input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.input-field button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Styles for the filter buttons */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.filter-buttons button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  background-color: #ccc;
+  color: #000;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.filter-buttons button.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+/* Styles for the todo list */
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.todo-list input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo-list input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.todo-list button {
+  padding: 8px 12px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.completed {
+  color: #a6cd35;
+  text-decoration: line-through;
+}
+
+.button-group button {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.task-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.task-title {
+  flex-grow: 1;
+  word-break: break-word;
+  /* Add any other necessary styles for the task title */
+}
